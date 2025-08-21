@@ -21,7 +21,7 @@ git config --global user.email "my.email@example.com"
 
 git add .
 
-git branch -M main
+#git branch -M main
 
 git commit -m "initial commit"
 
@@ -29,5 +29,7 @@ git remote add origin https://<TOKEN>@github.com/<USERNAME>/<REPONAME>.git
 
 #git remote set-url origin https://<TOKEN>@github.com/<USERNAME>/<REPONAME>.git
 
-git push -u origin main
+#git push -u origin main
+
+git push -u origin master
 
