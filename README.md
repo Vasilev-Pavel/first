@@ -25,9 +25,9 @@ git add .
 
 git commit -m "initial commit"
 
-git remote add origin https://<TOKEN>@github.com/<USERNAME>/<REPONAME>.git
+git remote add origin https://\<TOKEN\>@github.com/\<USERNAME\>/\<REPONAME\>.git
 
-#git remote set-url origin https://<TOKEN>@github.com/<USERNAME>/<REPONAME>.git
+#git remote set-url origin https://\<TOKEN\>@github.com/\<USERNAME\>/\<REPONAME\>.git
 
 #git push -u origin main
 
