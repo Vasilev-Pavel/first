@@ -1,0 +1,19 @@
+{
+  "name": "simple-nodejs-server",
+  "version": "1.0.0",
+  "description": "A simple Node.js HTTP server that generates a minimal HTML page and serves static files",
+  "main": "notes.js",
+  "scripts": {
+    "start": "node notes.js",
+    "dev": "node notes.js"
+  },
+  "keywords": ["nodejs", "http-server", "html", "mysql"],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "mysql2": "^3.6.0"
+  }
+}
